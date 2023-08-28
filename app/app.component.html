@@ -1,0 +1,32 @@
+<div>
+  <h1>{{ title.toUpperCase() }}</h1>
+</div>
+<div class="container" >
+  <div class="col1" >
+    <app-world
+      (name)="name = $event"
+      (capital)="capital = $event"
+      (region)="region = $event"
+      (income)="income = $event"
+      (longitude)="longitude = $event"
+      (latitude)="latitude = $event">
+    </app-world>
+  </div>
+  <div class="col2" >
+    <app-world-info
+      [name]="name"
+      [capital]="capital"
+      [region]="region"
+      [income]="income"
+      [longitude]="longitude"
+      [latitude]="latitude">
+    </app-world-info> 
+  </div>
+</div>
+
+<footer>
+  Information Provided by <a href="https://www.worldbank.org/en/home" target="_blank">The World Bank</a> 
+</footer>
+  
+
+

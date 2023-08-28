@@ -1,0 +1,29 @@
+
+h1{
+    font-family: 'Roboto';
+    font-size: 40px;
+    padding: 15px 15px 30px 45px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1{
+    width: 140vh;
+    height: 100vh;
+}
+
+.col2{
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding: 5px 45px 0 0;
+    font-weight: bold;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
